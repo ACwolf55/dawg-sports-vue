@@ -47,13 +47,28 @@ dawgWatch: [
 
 <div class=" flex flex-col w-full ">
     <!-- Header -->
-    <header class="bg-purple-600 text-white h-32 md:h-40 flex items-center justify-between px-4 py-2">
-      <h1 class="text-3xl md:text-5xl font-bold text-neon-green animate-pulse">DAWG SPORTS</h1>
-      <div class="flex items-center space-x-4">
-        <img id="arK9" src="https://i.redd.it/rg6vluviqrk61.png" alt="ArK9" class="w-16 h-16 md:w-24 md:h-24 object-contain" />
-        <img id="football" src="/football.png" alt="Football" class="w-12 h-12 md:w-16 md:h-16 object-contain animate-bounce" />
-      </div>
-    </header>
+    <header class="bg-purple-600 text-white h-32 md:h-40 flex flex-col items-center justify-between px-4 py-2">
+  <!-- Title -->
+
+  <!-- Logos -->
+  <div class="flex items-center space-x-4">
+  <h1 class="text-3xl md:text-5xl font-bold text-neon-green animate-pulse">DAWG SPORTS</h1>
+    <img id="arK9" src="https://i.redd.it/rg6vluviqrk61.png" alt="ArK9" class="w-12 h-12 md:w-16 md:h-16 object-contain" />
+    <img id="football" src="/football.png" alt="Football" class="w-12 h-12 md:w-16 md:h-16 object-contain animate-bounce" />
+  </div>
+
+
+  <nav class="flex flex-col md:flex-row w-full md:w-2/3 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 rounded-lg p-2 justify-around">
+    <h4 class="title-link flex-1 flex items-center justify-center">
+      <img id="nfl-logo" src="/nfl_logo.png" class="w-8 h-8 md:w-12 md:h-12 mr-2">NFL Player Rankings
+    </h4>
+    <h4 class="title-link flex-1 flex items-center justify-center">
+      <img id='nba-logo' src='https://cdn.freebiesupply.com/images/large/2x/nba-logo-transparent.png' class="w-8 h-8 md:w-12 md:h-12 mr-2">NBA Player Rankings
+    </h4>
+    <h4 class="title-link flex-1 text-center">Place your ad here! -$50 a week-</h4>
+  </nav>
+</header>
+
 
     <!-- Main content -->
     <main class="flex flex-col sm:flex-row space-x-0 sm:space-x-4 p-4 h-auto sm:h-[375vh]">
