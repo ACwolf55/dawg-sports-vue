@@ -51,7 +51,7 @@ dawgWatch: [
       <h1 class="text-3xl md:text-5xl font-bold text-neon-green animate-pulse">DAWG SPORTS</h1>
       <div class="flex items-center space-x-4">
         <img id="arK9" src="https://i.redd.it/rg6vluviqrk61.png" alt="ArK9" class="w-16 h-16 md:w-24 md:h-24 object-contain" />
-        <img id="football" src="./pics/football.png" alt="Football" class="w-12 h-12 md:w-16 md:h-16 object-contain animate-bounce" />
+        <img id="football" src="/football.png" alt="Football" class="w-12 h-12 md:w-16 md:h-16 object-contain animate-bounce" />
       </div>
     </header>
 
