@@ -2,3 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient-border {
+  background: linear-gradient(to right, #A855F7, #EF4444, #A855F7); /* Your gradient colors */
+  z-index: 0;
+  border-radius: 0.5rem; /* Matches the rounded corners of the image */
+  padding: 5px; /* Adjust for border thickness */
+}
+
+main{
+  background-color: rgb(40, 59, 124);
+}
