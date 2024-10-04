@@ -30,19 +30,19 @@ export default {
           team: "Cincinnati Bengals",
         },
         {
-          player: "Sam Darnold",
-          logoPic: "/team_logos/vikings.png",
-          team: "Minnesota Vikings",
-        },
-        {
           player: "Baker Mayfield",
           logoPic: "/team_logos/buccaneers.png",
           team: "Tampa Bay Buccaneers",
         },
         {
-          player: "Matthew Stafford",
-          logoPic: "/team_logos/rams.png",
-          team: "Los Angeles Rams",
+          player: "Sam Darnold",
+          logoPic: "/team_logos/vikings.png",
+          team: "Minnesota Vikings",
+        },
+        {
+          player: "Kirk Cousins",
+          logoPic: "/team_logos/falcons.png",
+          team: "Alanta Falcons",
         },
         {
           player: "Jayden Daniels",
@@ -50,9 +50,9 @@ export default {
           team: "Washington Commanders",
         },
         {
-          player: "Dak Prescott",
-          logoPic: "/team_logos/cowboys.png",
-          team: "Dallas Cowboys",
+          player: "Matthew Stafford",
+          logoPic: "/team_logos/rams.png",
+          team: "Los Angeles Rams",
         },
       ],
       rbRankings: [
@@ -77,14 +77,9 @@ export default {
           team: "Los Angeles Rams",
         },
         {
-          player: "Jonathan Taylor",
-          logoPic: "/team_logos/colts.png",
-          team: "Indianapolis Colts",
-        },
-        {
-          player: "Bijan Robinson",
-          logoPic: "/team_logos/falcons.png",
-          team: "Atlanta Falcons",
+          player: "David Montgomery",
+          logoPic: "/team_logos/lions.png",
+          team: "Detroit Lions",
         },
         {
           player: "James Cook",
@@ -92,19 +87,24 @@ export default {
           team: "Buffalo Bills",
         },
         {
+          player: "Kenneth Walker",
+          logoPic: "/team_logos/seahawks.png",
+          team: "Seattle Seahawks",
+        },
+        {
+          player: "Bijan Robinson",
+          logoPic: "/team_logos/falcons.png",
+          team: "Atlanta Falcons",
+        },
+        {
           player: "Breece Hall",
           logoPic: "/team_logos/jets.png",
           team: "New York Jets",
         },
         {
-          player: "Devon Achane",
-          logoPic: "/team_logos/dolphins.png",
-          team: "Miami Dolphins",
-        },
-        {
-          player: "David Montgomery",
-          logoPic: "/team_logos/lions.png",
-          team: "Detroit Lions",
+          player: "Jonathan Taylor",
+          logoPic: "/team_logos/colts.png",
+          team: "Indianapolis Colts",
         },
       ],
       wrRankings: [

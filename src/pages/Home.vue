@@ -1,11 +1,13 @@
 <script>
+import Header from "../components/Header.vue";
+
 import { nflRankings, topDawgs, dawgWatch } from "../data/rankings";
 
 export default {
     name:"Home",
     data() {
     return {
-      dawgWatch, nflRankings, topDawgs
+      dawgWatch, nflRankings, topDawgs,
 
     };
   }
@@ -15,8 +17,7 @@ export default {
 <template>
 
 <div class=" flex flex-col w-full ">
-    
-    <header class="bg-purple-600 text-white h-32 md:h-40 flex flex-col items-center justify-between px-4 py-2">
+  <header class="bg-purple-600 text-white h-32 md:h-40 flex flex-col items-center justify-between px-4 py-2">
   
   <RouterLink><div class="flex items-center space-x-4">
   <h1 class="text-3xl md:text-5xl font-bold text-neon-green animate-pulse font-bungee">DAWG SPORTS</h1>
