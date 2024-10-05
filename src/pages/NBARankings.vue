@@ -10,29 +10,30 @@ export default {
 </script>
 
 <template>
-  <div class="min-h-screen bg-cyan-600 flex flex-col justify-center items-center">
-    <h2 class="text-white text-3xl font-bold mb-6">NBA Player Rankings</h2>
-    <ol class="list-decimal list-inside text-white text-lg">
-      <li>Luka Doncic</li>
-      <li>Nikola Jokic</li>
-      <li>Giannis Antetokounmpo</li>
-      <li>Stephen Curry</li>
-      <li>Anthony Edwards</li>
-      <li>Joel Embiid</li>
-      <li>Devin Booker</li>
-      <li>Shai Gilgeous-Alexander</li>
-      <li>Lebron James</li>
-      <li>Victor Wembanyama</li>
-      <li>Kevin Durant</li>
-      <li>Jalen Brunson</li>
-      <li>Jimmy Butler</li>
-      <li>Anthony Davis</li>
-      <li>Donovan Mitchell</li>
-      <li>Jason Tatum</li>
-      <li>Kyrie Irving</li>
-      <li>Kawhi Leonard</li>
-      <li>Jaylen Brown</li>
-      <li>Tyrese Haliburton</li>
-    </ol>
-  </div>
+ <div class="min-h-screen bg-gradient-to-br from-[#283B7C] to-[#9333EA] flex flex-col justify-center items-center pt-5 pb-10">
+  <h2 class="text-white text-4xl font-bold mb-6 underline">NBA Player Rankings</h2>
+  <ol class="list-decimal list-inside text-white text-lg">
+    <li class="font-bold">Luka Doncic</li>
+    <li class="font-bold">Nikola Jokic</li>
+    <li class="font-bold">Giannis Antetokounmpo</li>
+    <li class="font-bold">Stephen Curry</li>
+    <li class="font-bold">Anthony Edwards</li>
+    <li class="font-bold">Joel Embiid</li>
+    <li class="font-bold">Devin Booker</li>
+    <li class="font-bold">Shai Gilgeous-Alexander</li>
+    <li class="font-bold">LeBron James</li>
+    <li class="font-bold">Victor Wembanyama</li>
+    <li class="font-bold">Kevin Durant</li>
+    <li class="font-bold">Jalen Brunson</li>
+    <li class="font-bold">Jimmy Butler</li>
+    <li class="font-bold">Anthony Davis</li>
+    <li class="font-bold">Donovan Mitchell</li>
+    <li class="font-bold">Jayson Tatum</li>
+    <li class="font-bold">Kyrie Irving</li>
+    <li class="font-bold">Kawhi Leonard</li>
+    <li class="font-bold">Jaylen Brown</li>
+    <li class="font-bold">Tyrese Haliburton</li>
+  </ol>
+</div>
+
 </template>

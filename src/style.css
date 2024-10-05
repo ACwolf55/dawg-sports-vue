@@ -10,6 +10,10 @@
   padding: 5px; /* Adjust for border thickness */
 }
 
+.quote-box-pointer {
+  transform: rotate(-15deg);
+}
+
 main{
   background-color: rgb(40, 59, 124);
 }

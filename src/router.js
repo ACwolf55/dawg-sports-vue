@@ -5,6 +5,8 @@ import NFLRankings from './pages/NFLRankings.vue'
 import NBARankings from './pages/NBARankings.vue'
 import GetAd from './pages/GetAd.vue'
 import Careers from './pages/Careers.vue'
+import ContactUs from './pages/ContactUs.vue'
+import OurStory from './pages/OurStory.vue'
 
 
 
@@ -23,6 +25,12 @@ const routes = [
   },
   {
     path: '/Careers',component: Careers,
+  },
+  {
+    path: '/ContactUs',component: ContactUs,
+  },
+  {
+    path: '/OurStory',component: OurStory,
   },
 ];
 
