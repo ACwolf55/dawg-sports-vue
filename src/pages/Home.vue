@@ -71,7 +71,7 @@ export default {
     </header>
 
     <main
-      class="flex flex-col sm:flex-row space-x-0 sm:space-x-4 p-4 h-auto sm:h-[400vh]"
+      class="flex flex-col sm:flex-row space-x-0 sm:space-x-4 p-4 h-auto sm:h-[440vh]"
     >
     <section
   class="w-full sm:w-[40%] bg-gray-600 p-5 rounded-lg shadow-lg mb-4 sm:mb-0 sm:h-[100%]"
@@ -121,100 +121,72 @@ export default {
 
       </section>
 
-      <!-- Top Dawgs (Middle Column) -->
-      <section
-  class="w-full sm:w-[40%] bg-gray-600 p-5 rounded-lg shadow-lg mb-4 sm:mb-0 sm:h-[100%]"
->
+     <!-- Top Dawgs (Middle Column) -->
+<section class="w-full sm:w-[40%] bg-gray-600 p-5 rounded-lg shadow-lg mb-4 sm:mb-0 sm:h-[100%]">
+  <h3 class="text-2xl font-bold text-white mb-8 text-center font-ranchers">
+    Top Dawgs
+  </h3>
 
-        <h3
-          class="text-2xl font-bold text-white mb-8 text-center font-ranchers"
-        >
-          Top Dawgs
-        </h3>
-        <div
-          v-for="(player, index) in topDawgs"
-          :key="index"
-          class="bg-gray-200 p-4 rounded-lg shadow-md mb-4"
-        >
-          <div class="flex flex-col sm:flex-row items-center sm:items-start">
-            <img
-              :src="player.playerPic"
-              alt="player image"
-              class="w-32 h-24 object-cover rounded-lg relative z-10 mr-0 sm:mr-4 mb-4 sm:mb-0 gradient-border"
-            />
-
-            <div class="text-center sm:text-left">
-              <h4 class="text-lg font-bold text-gray-800">
-                {{ player.player }}
-              </h4>
-              <span class="font-normal text-gray-600">
-                {{ player.position }}</span
-              >
-
-              <div
-                class="flex justify-center sm:justify-start items-center mt-2"
-              >
-                <img
-                  :src="player.logoPic"
-                  alt="team logo"
-                  class="w-9 h-9 object-contain mr-2"
-                />
-                <p class="text-gray-700">{{ player.team }}</p>
-              </div>
-
-              <p class="mt-2">{{ player.info }}</p>
-            </div>
-          </div>
+  <div v-for="(player, index) in topDawgs" :key="index" class="bg-gray-200 p-4 rounded-lg shadow-md mb-4">
+    <!-- Top Section: Player Image & Info -->
+    <div class="flex items-center mb-4">
+      <img
+        :src="player.playerPic"
+        alt="player image"
+        class="w-24 h-24 object-cover rounded-lg mr-4 gradient-border"
+      />
+      <div class="flex flex-col">
+        <h4 class="text-lg font-bold text-gray-800">{{ player.player }} -  <span class="text-gray-600">{{ player.position }}</span> </h4>
+        <div class="flex items-center mt-1">
+          <img
+            :src="player.logoPic"
+            alt="team logo"
+            class="w-9 h-9 object-contain mr-2"
+          />
+          <p class="text-gray-700">{{ player.team }}</p>
         </div>
-      </section>
+    
+      </div>
+    </div>
 
-      <!-- Dawg Watch Section -->
-      <section
-  class="w-full sm:w-[40%] bg-gray-600 p-5 rounded-lg shadow-lg mb-4 sm:mb-0 sm:h-[100%]"
->
+    <!-- Lower Section: Player Info/Notes -->
+    <p class="text-gray-700">{{ player.info }}</p>
+  </div>
+</section>
 
-        <h3
-          class="text-2xl font-bold text-white mb-8 text-center font-ranchers"
-        >
-          Dawg Watch
-        </h3>
-        <div
-          v-for="(player, index) in dawgWatch"
-          :key="index"
-          class="bg-gray-200 p-4 rounded-lg shadow-md mb-4"
-        >
-          <div class="flex flex-col sm:flex-row items-center sm:items-start">
-            <!-- Player Image -->
-            <img
-              :src="player.playerPic"
-              alt="player image"
-              class="w-32 h-24 object-cover rounded-lg relative z-10 mr-0 sm:mr-4 mb-4 sm:mb-0 gradient-border"
-            />
+<!-- Dawg Watch Section -->
+<section class="w-full sm:w-[40%] bg-gray-600 p-5 rounded-lg shadow-lg mb-4 sm:mb-0 sm:h-[100%]">
+  <h3 class="text-2xl font-bold text-white mb-8 text-center font-ranchers">
+    Dawg Watch
+  </h3>
 
-            <div class="text-center sm:text-left">
-              <h4 class="text-lg font-bold text-gray-800">
-                {{ player.player }}
-              </h4>
-              <span class="text-gray-600 font-normal">
-                {{ player.position }}</span
-              >
-
-              <div
-                class="flex justify-center sm:justify-start items-center mt-2"
-              >
-                <img
-                  :src="player.logoPic"
-                  alt="team logo"
-                  class="w-9 h-9 object-contain mr-2"
-                />
-                <p class="text-gray-700">{{ player.team }}</p>
-              </div>
-
-              <p class="mt-2">{{ player.info }}</p>
-            </div>
-          </div>
+  <div v-for="(player, index) in dawgWatch" :key="index" class="bg-gray-200 p-4 rounded-lg shadow-md mb-4">
+    <!-- Top Section: Player Image & Info -->
+    <div class="flex items-center mb-4">
+      <img
+        :src="player.playerPic"
+        alt="player image"
+        class="w-24 h-24 object-cover rounded-lg mr-4 gradient-border"
+      />
+      <div class="flex flex-col">
+        <h4 class="text-lg font-bold text-gray-800">{{ player.player }}- <span class="text-gray-600">{{ player.position }}</span></h4>
+        <div class="flex items-center mt-1">
+          <img
+            :src="player.logoPic"
+            alt="team logo"
+            class="w-9 h-9 object-contain mr-2"
+          />
+          <p class="text-gray-700">{{ player.team }}</p>
         </div>
-      </section>
+
+      </div>
+    </div>
+
+    <!-- Lower Section: Player Info/Notes -->
+    <p class="text-gray-700">{{ player.info }}</p>
+  </div>
+</section>
+
     </main>
 
     <!-- Footer -->
