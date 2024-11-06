@@ -5,11 +5,6 @@ export default {
     return {
       qbRankings: [
         {
-          player: "Patrick Mahomes",
-          logoPic: "/team_logos/chiefs.png",
-          team: "Kansas City Chiefs",
-        },
-        {
           player: "Josh Allen",
           logoPic: "/team_logos/bills.png",
           team: "Buffalo Bills",
@@ -20,9 +15,9 @@ export default {
           team: "Baltimore Ravens",
         },
         {
-          player: "CJ Stroud",
-          logoPic: "/team_logos/texans.png",
-          team: "Houston Texans",
+          player: "Patrick Mahomes",
+          logoPic: "/team_logos/chiefs.png",
+          team: "Kansas City Chiefs",
         },
         {
           player: "Joe Burrow",
@@ -35,6 +30,21 @@ export default {
           team: "Tampa Bay Buccaneers",
         },
         {
+          player: "Jared Goff",
+          logoPic: "/team_logos/lions.png",
+          team: "Detroit Lions",
+        },
+        {
+          player: "CJ Stroud",
+          logoPic: "/team_logos/texans.png",
+          team: "Houston Texans",
+        },
+        {
+          player: "Jayden Daniels",
+          logoPic: "/team_logos/commanders.png",
+          team: "Washington Commanders",
+        },
+        {
           player: "Sam Darnold",
           logoPic: "/team_logos/vikings.png",
           team: "Minnesota Vikings",
@@ -43,16 +53,6 @@ export default {
           player: "Kirk Cousins",
           logoPic: "/team_logos/falcons.png",
           team: "Alanta Falcons",
-        },
-        {
-          player: "Jayden Daniels",
-          logoPic: "/team_logos/commanders.png",
-          team: "Washington Commanders",
-        },
-        {
-          player: "Matthew Stafford",
-          logoPic: "/team_logos/rams.png",
-          team: "Los Angeles Rams",
         },
       ],
       rbRankings: [
@@ -72,9 +72,14 @@ export default {
           team: "New Orleans Saints",
         },
         {
-          player: "Kyren Williams",
-          logoPic: "/team_logos/rams.png",
-          team: "Los Angeles Rams",
+          player: "Bijan Robinson",
+          logoPic: "/team_logos/falcons.png",
+          team: "Atlanta Falcons",
+        },
+        {
+          player: "Josh Jacobs",
+          logoPic: "/team_logos/packers.png",
+          team: "Green Bay Packers",
         },
         {
           player: "David Montgomery",
@@ -82,9 +87,9 @@ export default {
           team: "Detroit Lions",
         },
         {
-          player: "James Cook",
-          logoPic: "/team_logos/bills.png",
-          team: "Buffalo Bills",
+          player: "Kyren Williams",
+          logoPic: "/team_logos/rams.png",
+          team: "Los Angeles Rams",
         },
         {
           player: "Kenneth Walker",
@@ -92,19 +97,14 @@ export default {
           team: "Seattle Seahawks",
         },
         {
-          player: "Bijan Robinson",
-          logoPic: "/team_logos/falcons.png",
-          team: "Atlanta Falcons",
+          player: "Jahmyr Gibbs",
+          logoPic: "/team_logos/lions.png",
+          team: "Detroit Lions",
         },
         {
-          player: "Breece Hall",
-          logoPic: "/team_logos/jets.png",
-          team: "New York Jets",
-        },
-        {
-          player: "Jonathan Taylor",
-          logoPic: "/team_logos/colts.png",
-          team: "Indianapolis Colts",
+          player: "James Cook",
+          logoPic: "/team_logos/bills.png",
+          team: "Buffalo Bills",
         },
       ],
       wrRankings: [
@@ -119,19 +119,14 @@ export default {
           team: "Detroit Lions",
         },
         {
-          player: "Tyreek Hill",
-          logoPic: "/team_logos/dolphins.png",
-          team: "Miami Dolphins",
-        },
-        {
           player: "CeeDee Lamb",
           logoPic: "/team_logos/cowboys.png",
           team: "Dallas Cowboys",
         },
         {
-          player: "Mike Evans",
-          logoPic: "/team_logos/buccaneers.png",
-          team: "Tampa Bay Buccaneers",
+          player: "AJ Brown",
+          logoPic: "/team_logos/eagles.png",
+          team: "Philadelphia Eagles",
         },
         {
           player: "Ja'Marr Chase",
@@ -139,24 +134,29 @@ export default {
           team: "Cincinnati Bengals",
         },
         {
-          player: "Nico Collins",
-          logoPic: "/team_logos/texans.png",
-          team: "Houston Texans",
+          player: "Terry McLaurin",
+          logoPic: "/team_logos/commanders.png",
+          team: "Washington Commanders",
         },
         {
-          player: "DK Metcalf",
-          logoPic: "/team_logos/seahawks.png",
-          team: "Seattle Seahawks",
-        },
-        {
-          player: "Stefon Diggs",
-          logoPic: "/team_logos/bills.png",
-          team: "Buffalo Bills",
+          player: "Garrett Wilson",
+          logoPic: "/team_logos/jets.png",
+          team: "New York Jets",
         },
         {
           player: "Malik Nabers",
           logoPic: "/team_logos/giants.png",
           team: "New York Giants",
+        },
+        {
+          player: "Brian Thomas Jr.",
+          logoPic: "/team_logos/jaguars.png",
+          team: "Jacksonville Jaguars",
+        },
+        {
+          player: "Tyreek Hill",
+          logoPic: "/team_logos/dolphins.png",
+          team: "Miami Dolphins",
         },
       ],
     };

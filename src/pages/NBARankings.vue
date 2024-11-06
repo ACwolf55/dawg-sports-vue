@@ -19,20 +19,20 @@ export default {
     <li class="font-bold">Stephen Curry</li>
     <li class="font-bold">Anthony Edwards</li>
     <li class="font-bold">Joel Embiid</li>
-    <li class="font-bold">Devin Booker</li>
     <li class="font-bold">Shai Gilgeous-Alexander</li>
+    <li class="font-bold">Kevin Durant</li>
+    <li class="font-bold">Anthony Davis</li>
+    <li class="font-bold">Devin Booker</li>
     <li class="font-bold">LeBron James</li>
     <li class="font-bold">Victor Wembanyama</li>
-    <li class="font-bold">Kevin Durant</li>
     <li class="font-bold">Jalen Brunson</li>
     <li class="font-bold">Jimmy Butler</li>
-    <li class="font-bold">Anthony Davis</li>
-    <li class="font-bold">Donovan Mitchell</li>
     <li class="font-bold">Jayson Tatum</li>
+    <li class="font-bold">Donovan Mitchell</li>
     <li class="font-bold">Kyrie Irving</li>
-    <li class="font-bold">Kawhi Leonard</li>
+    <li class="font-bold">Chet Holmgren</li>
     <li class="font-bold">Jaylen Brown</li>
-    <li class="font-bold">Tyrese Haliburton</li>
+    <li class="font-bold">Paolo Banchero</li>
   </ol>
 </div>
 
