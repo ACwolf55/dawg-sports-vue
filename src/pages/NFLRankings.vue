@@ -114,6 +114,11 @@ export default {
           team: "Minnesota Vikings",
         },
         {
+          player: "Ja'Marr Chase",
+          logoPic: "/team_logos/bengals.png",
+          team: "Cincinnati Bengals",
+        },
+        {
           player: "Amon-Ra St. Brown",
           logoPic: "/team_logos/lions.png",
           team: "Detroit Lions",
@@ -127,11 +132,6 @@ export default {
           player: "AJ Brown",
           logoPic: "/team_logos/eagles.png",
           team: "Philadelphia Eagles",
-        },
-        {
-          player: "Ja'Marr Chase",
-          logoPic: "/team_logos/bengals.png",
-          team: "Cincinnati Bengals",
         },
         {
           player: "Terry McLaurin",
