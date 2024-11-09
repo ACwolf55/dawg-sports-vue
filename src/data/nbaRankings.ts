@@ -1,4 +1,4 @@
-const nbaPlayers: string[] = [
+export const nbaPlayers: string[] = [
     "Nikola Jokic",
     "Luka Doncic",
     "Giannis Antetokounmpo",

@@ -1,6 +1,6 @@
 <script>
 
-import Header from "../components/Header.vue";
+import Header from "@/components/Header.vue";
 
 
 import { nflRankings, topDawgs, dawgWatch } from "../data/rankings";
@@ -19,7 +19,7 @@ export default {
 
 <template>
   <div class="flex flex-col w-full">
-    <!-- <Header/> -->
+
     <header
       class="bg-purple-600 text-white h-32 md:h-40 flex flex-col items-center justify-between px-4 py-2"
     >
