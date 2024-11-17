@@ -24,7 +24,7 @@ export default {
   <!-- Logo and Title Section -->
   <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
     <h1
-      class="text-2xl md:text-4xl font-bold text-neon-green animate-pulse font-bungee text-center"
+      class="text-3xl md:text-5xl font-bold text-neon-green animate-pulse font-bungee text-center"
     >
       DAWG SPORTS
     </h1>
