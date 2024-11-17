@@ -68,8 +68,7 @@ export default {
         <RouterLink to="/GetAd"
           ><h4 class="title-link flex-1 text-center">
             <i>*Place your ad here! $50 a week*</i>
-          </h4></RouterLink
-        >
+          </h4></RouterLink>
       </nav>
     </header>
 
