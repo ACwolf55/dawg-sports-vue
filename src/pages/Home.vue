@@ -62,8 +62,7 @@ export default {
               src="https://cdn.freebiesupply.com/images/large/2x/nba-logo-transparent.png"
               class="w-8 h-8 md:w-12 md:h-12 mr-2"
             />NBA Player Rankings
-          </h4></RouterLink
-        >
+          </h4></RouterLink>
         <RouterLink to="/GetAd"
           ><h4 class="title-link flex-1 text-center">
             <i>*Place your ad here! $50 a week*</i>
