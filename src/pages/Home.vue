@@ -23,8 +23,7 @@ export default {
     <header
       class="bg-purple-600 text-white h-32 md:h-40 flex flex-col items-center justify-between px-4 py-2"
     >
-      <RouterLink
-        ><div class="flex items-center space-x-4">
+   <div class="flex items-center space-x-4">
           <h1
             class="text-3xl md:text-5xl font-bold text-neon-green animate-pulse font-bungee"
           >
@@ -42,7 +41,7 @@ export default {
             alt="Football"
             class="w-12 h-12 md:w-16 md:h-16 object-contain animate-bounce"
           /></div
-      ></RouterLink>
+      >
 
       <nav
         class="flex flex-col md:flex-row w-full md:w-2/3 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 rounded-lg p-2 justify-around items-center"
