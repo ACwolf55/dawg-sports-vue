@@ -108,15 +108,20 @@ export const nflRankings = [
           team: "New Orleans Saints",
         },
         {
-          player: "Bijan Robinson",
-          logoPic: "/team_logos/falcons.png",
-          team: "Atlanta Falcons",
-        },
-        {
           player: "Josh Jacobs",
           logoPic: "/team_logos/packers.png",
           team: "Green Bay Packers",
         },
+          {
+          player: "Jahmyr Gibbs",
+          logoPic: "/team_logos/lions.png",
+          team: "Detroit Lions",
+        },
+        {
+          player: "Bijan Robinson",
+          logoPic: "/team_logos/falcons.png",
+          team: "Atlanta Falcons",
+        },   
         {
           player: "David Montgomery",
           logoPic: "/team_logos/lions.png",
@@ -131,11 +136,6 @@ export const nflRankings = [
           player: "Kenneth Walker",
           logoPic: "/team_logos/seahawks.png",
           team: "Seattle Seahawks",
-        },
-        {
-          player: "Jahmyr Gibbs",
-          logoPic: "/team_logos/lions.png",
-          team: "Detroit Lions",
         },
         {
           player: "James Cook",
@@ -161,6 +161,11 @@ export const nflRankings = [
           team: "Detroit Lions",
         },
         {
+          player: "Terry McLaurin",
+          logoPic: "/team_logos/commanders.png",
+          team: "Washington Commanders",
+        },
+        {
           player: "CeeDee Lamb",
           logoPic: "/team_logos/cowboys.png",
           team: "Dallas Cowboys",
@@ -171,12 +176,7 @@ export const nflRankings = [
           team: "Philadelphia Eagles",
         },
         {
-          player: "Terry McLaurin",
-          logoPic: "/team_logos/commanders.png",
-          team: "Washington Commanders",
-        },
-        {
-          player: "Garrett Wilson",
+          player: "Devonta Adams",
           logoPic: "/team_logos/jets.png",
           team: "New York Jets",
         },
@@ -186,13 +186,13 @@ export const nflRankings = [
           team: "New York Giants",
         },
         {
-          player: "Brian Thomas Jr.",
-          logoPic: "/team_logos/jaguars.png",
-          team: "Jacksonville Jaguars",
+          player: "George Pickens",
+          logoPic: "/team_logos/steelers.png",
+          team: "Pittsburgh Steelers",
         },
         {
-          player: "Tyreek Hill",
-          logoPic: "/team_logos/dolphins.png",
-          team: "Miami Dolphins",
+          player: "D.K. Metcalf",
+          logoPic: "/team_logos/seahawks.png",
+          team: "Seattle Seahawks",
         },
       ]
