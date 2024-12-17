@@ -1,9 +1,9 @@
 export const nflRankings = [
-    { team: "Detroit Lions", pic: "/team_logos/lions.png" },           
+   { team: "Buffalo Bills", pic: "/team_logos/bills.png" },
+ { team: "Detroit Lions", pic: "/team_logos/lions.png" },           
+{ team: "Philadelphia Eagles", pic: "/team_logos/eagles.png" },
     { team: "Baltimore Ravens", pic: "/team_logos/ravens.png" },         
-      { team: "Kansas City Chiefs #refsPlan", pic: "/team_logos/chiefs.png" },        
-      { team: "Buffalo Bills", pic: "/team_logos/bills.png" },           
-      { team: "Philadelphia Eagles", pic: "/team_logos/eagles.png" },        
+      { team: "Kansas City Chiefs #refsPlan", pic: "/team_logos/chiefs.png" },                            
       { team: "Minnesota Vikings", pic: "/team_logos/vikings.png" },       
       { team: "Atlanta Falcons", pic: "/team_logos/falcons.png" }   ,   
       { team: "Washington Commanders", pic: "/team_logos/commanders.png" },       
@@ -49,25 +49,25 @@ export const nflRankings = [
           logoPic: "/team_logos/ravens.png",
           team: "Baltimore Ravens",
         },
+ {
+          player: "Joe Burrow",
+          logoPic: "/team_logos/bengals.png",
+          team: "Cincinnati Bengals",
+        },
+{
+          player: "Jared Goff",
+          logoPic: "/team_logos/lions.png",
+          team: "Detroit Lions",
+        },
         {
           player: "Patrick Mahomes",
           logoPic: "/team_logos/chiefs.png",
           team: "Kansas City Chiefs",
         },
         {
-          player: "Joe Burrow",
-          logoPic: "/team_logos/bengals.png",
-          team: "Cincinnati Bengals",
-        },
-        {
           player: "Baker Mayfield",
           logoPic: "/team_logos/buccaneers.png",
           team: "Tampa Bay Buccaneers",
-        },
-        {
-          player: "Jared Goff",
-          logoPic: "/team_logos/lions.png",
-          team: "Detroit Lions",
         },
         {
           player: "CJ Stroud",
@@ -92,20 +92,15 @@ export const nflRankings = [
       ]
       
       export const rbRankings= [
-        {
-          player: "Derrick Henry",
-          logoPic: "/team_logos/ravens.png",
-          team: "Baltimore Ravens",
-        },
-        {
+          {
           player: "Saquon Barkley",
           logoPic: "/team_logos/eagles.png",
           team: "Philadelphia Eagles",
         },
-        {
-          player: "Alvin Kamara",
-          logoPic: "/team_logos/saints.png",
-          team: "New Orleans Saints",
+ {
+          player: "Derrick Henry",
+          logoPic: "/team_logos/ravens.png",
+          team: "Baltimore Ravens",
         },
         {
           player: "Josh Jacobs",
@@ -122,6 +117,11 @@ export const nflRankings = [
           logoPic: "/team_logos/falcons.png",
           team: "Atlanta Falcons",
         },   
+{
+          player: "Alvin Kamara",
+          logoPic: "/team_logos/saints.png",
+          team: "New Orleans Saints",
+        },
         {
           player: "David Montgomery",
           logoPic: "/team_logos/lions.png",
@@ -191,8 +191,8 @@ export const nflRankings = [
           team: "Pittsburgh Steelers",
         },
         {
-          player: "D.K. Metcalf",
-          logoPic: "/team_logos/seahawks.png",
-          team: "Seattle Seahawks",
+          player: "Kalil Shakir",
+          logoPic: "/team_logos/bills.png",
+          team: "Buffalo Bills",
         },
       ]
