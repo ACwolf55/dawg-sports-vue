@@ -180,15 +180,15 @@ export const nflRankings = [
           logoPic: "/team_logos/jets.png",
           team: "New York Jets",
         },
+  {
+          player: "Puka Nacua",
+          logoPic: "/team_logos/rams.png",
+          team: "Los Angeles Rams",
+        },
         {
           player: "Malik Nabers",
           logoPic: "/team_logos/giants.png",
           team: "New York Giants",
-        },
-        {
-          player: "George Pickens",
-          logoPic: "/team_logos/steelers.png",
-          team: "Pittsburgh Steelers",
         },
         {
           player: "Kalil Shakir",
