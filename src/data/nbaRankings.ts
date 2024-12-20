@@ -1,7 +1,7 @@
 export const nbaPlayers: string[] = [
-    "Nikola Jokic",
+      "Giannis Antetokounmpo",
+     "Nikola Jokic"
     "Luka Doncic",
-    "Giannis Antetokounmpo",
     "Stephen Curry",
     "Shai Gilgeous-Alexander",
     "Anthony Edwards",
@@ -10,13 +10,13 @@ export const nbaPlayers: string[] = [
     "Anthony Davis",
     "Devin Booker",
     "LeBron James",
-    "Jalen Brunson",
     "Victor Wembanyama",
-    "Jimmy Butler",
     "Jayson Tatum",
-    "Donovan Mitchell",
+     "Donovan Mitchell",
+"Jimmy Butler",
+ "Jalen Brunson",
+"Trae Young",
     "Kyrie Irving",
     "Paolo Banchero",
-    "Jaylen Brown",
-    "Chet Holmgren",
+    "Jaylen Brown"
   ];
