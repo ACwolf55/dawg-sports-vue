@@ -191,8 +191,8 @@ export const nflRankings = [
           team: "New York Giants",
         },
         {
-          player: "Kalil Shakir",
-          logoPic: "/team_logos/bills.png",
-          team: "Buffalo Bills",
+          player: "Brian Thomas Jr.",
+          logoPic: "/team_logos/jaguars.png",
+          team: "Jacksonville Jaguars",
         },
       ]
