@@ -5,10 +5,10 @@ export const nflRankings = [
     { team: "Baltimore Ravens", pic: "/team_logos/ravens.png" },         
       { team: "Kansas City Chiefs #refsPlan", pic: "/team_logos/chiefs.png" },                            
       { team: "Minnesota Vikings", pic: "/team_logos/vikings.png" },       
-      { team: "Atlanta Falcons", pic: "/team_logos/falcons.png" }   ,   
+      { team: "Los Angeles Rams", pic: "/team_logos/Rams.png" }   ,   
       { team: "Washington Commanders", pic: "/team_logos/commanders.png" },       
       { team: "Green Bay Packers", pic: "/team_logos/packers.png" },         
-  { team: "San Franciso 49ers", pic: "/team_logos/49ers.png" },       
+  { team: "Tampa Bay Bucaneers", pic: "/team_logos/Bucaneers.png" },       
   ]
   
   export const topDawgs = [
