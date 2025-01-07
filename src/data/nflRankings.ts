@@ -8,7 +8,7 @@ export const nflRankings = [
       { team: "Los Angeles Rams", pic: "/team_logos/Rams.png" }   ,   
       { team: "Washington Commanders", pic: "/team_logos/commanders.png" },       
       { team: "Green Bay Packers", pic: "/team_logos/packers.png" },         
-  { team: "Tampa Bay Bucaneers", pic: "/team_logos/Bucaneers.png" },       
+  { team: "Tampa Bay Bucaneers", pic: "/team_logos/bucaneers.png" },       
   ]
   
   export const topDawgs = [
