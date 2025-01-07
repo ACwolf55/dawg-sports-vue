@@ -85,9 +85,9 @@ export const nflRankings = [
           team: "Minnesota Vikings",
         },
         {
-          player: "Kirk Cousins",
-          logoPic: "/team_logos/falcons.png",
-          team: "Alanta Falcons",
+          player: "Justin Herbert",
+          logoPic: "/team_logos/chargers.png",
+          team: "Los Angeles Chargers",
         },
       ]
       
