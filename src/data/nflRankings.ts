@@ -1,14 +1,14 @@
 export const nflRankings = [
-    { team: "Detroit Lions", pic: "/team_logos/lions.png" },           
-    { team: "Baltimore Ravens", pic: "/team_logos/ravens.png" },         
-      { team: "Kansas City Chiefs #refsPlan", pic: "/team_logos/chiefs.png" },        
-      { team: "Buffalo Bills", pic: "/team_logos/bills.png" },           
-      { team: "Philadelphia Eagles", pic: "/team_logos/eagles.png" },        
-      { team: "Minnesota Vikings", pic: "/team_logos/vikings.png" },       
-      { team: "Atlanta Falcons", pic: "/team_logos/falcons.png" }   ,   
-      { team: "Washington Commanders", pic: "/team_logos/commanders.png" },       
-      { team: "Green Bay Packers", pic: "/team_logos/packers.png" },         
-  { team: "San Franciso 49ers", pic: "/team_logos/49ers.png" },       
+  { team: "Philadelphia Eagles", pic: "/team_logos/eagles.png" },        
+  { team: "Detroit Lions", pic: "/team_logos/lions.png" },           
+  { team: "Buffalo Bills", pic: "/team_logos/bills.png" },           
+  { team: "Baltimore Ravens", pic: "/team_logos/ravens.png" },         
+  { team: "Kansas City Chiefs #refsPlan", pic: "/team_logos/chiefs.png" },        
+  { team: "Minnesota Vikings", pic: "/team_logos/vikings.png" },       
+  { team: "Washington Commanders", pic: "/team_logos/commanders.png" },       
+  { team: "Tampa Bay Buccaneers", pic: "/team_logos/buccaneers.png" },       
+  { team: "Los Angeles Rams", pic: "/team_logos/rams.png" }   ,   
+  { team: "Green Bay Packers", pic: "/team_logos/packers.png" },         
   ]
   
   export const topDawgs = [
@@ -34,8 +34,8 @@ export const nflRankings = [
       { player: "Devon Achane", playerPic: "https://d18d41pmnj8qe1.cloudfront.net/source/2020/Devon_Achane.jpg", logoPic: "/team_logos/dolphins.png", position: "RB", team: "Miami Dolphins", info: "Doing more for the fins than Tyreek and Waddle" },
       { player: "Sam Darnold", playerPic: "https://townsquare.media/site/164/files/2024/09/attachment-GettyImages-2173768015.jpg?w=780&q=75", logoPic: "/team_logos/vikings.png", position: "QB", team: "Minnesota Vikings", info: "Think all bro needed was a little justin jeffereson" },
       { player: "Baker Mayfield", playerPic: "https://media.pff.com/2023/09/2RWGWCN-scaled.jpg?w=1200&h=675", logoPic: "/team_logos/buccaneers.png", position: "QB", team: "Tampa Bay Buccaneers", info: "Already is a complete dawg just wanna PUT YAL ON WATCH" },
-      { player: "Evan Williams", playerPic: "https://static.clubs.nfl.com/image/upload/t_person_squared_mobile/f_auto/v1726240449/packers/fo2rgmeewrohkbb4vzm2.jpg", logoPic: "/team_logos/packers.png", position: "S", team: "Green Bay Packers", info: "Rookie wid solid with Run and Pass Defense" },
-      { player: "Quentin Johnston", playerPic: "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1qT7jw.img?w=560&h=248&m=6", logoPic: "/team_logos/chargers.png", position: "WR", team: "Los Angeles Chargers", info: "Literally seen no tape or highlights(my b) but his stats and hype got me on notice" }
+      { player: "Travis Hunter", playerPic: "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/rockcms/2025-04/250411-travis-hunter-colorado-wide-receiver-2024-ac-1044p-24c8a0.jpg", logoPic: "/nfl_logo.png", position: "CB / WR", team: "", info: "Elite 2 way, 2nd coming of primetime, hiesman, etc." },
+      { player: "Ashton Jeanty", playerPic: "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/getty_images/2192357263_large_image.jpg?w=802", logoPic: "/nfl_logo.png", position: "RB", team: "", info: "Looks like a video game character when he runs" }
     ]
   
  export const qbRankings = [
@@ -50,19 +50,14 @@ export const nflRankings = [
           team: "Baltimore Ravens",
         },
         {
-          player: "Patrick Mahomes",
-          logoPic: "/team_logos/chiefs.png",
-          team: "Kansas City Chiefs",
-        },
-        {
           player: "Joe Burrow",
           logoPic: "/team_logos/bengals.png",
           team: "Cincinnati Bengals",
         },
         {
-          player: "Baker Mayfield",
-          logoPic: "/team_logos/buccaneers.png",
-          team: "Tampa Bay Buccaneers",
+          player: "Patrick Mahomes",
+          logoPic: "/team_logos/chiefs.png",
+          team: "Kansas City Chiefs",
         },
         {
           player: "Jared Goff",
@@ -70,47 +65,42 @@ export const nflRankings = [
           team: "Detroit Lions",
         },
         {
-          player: "CJ Stroud",
-          logoPic: "/team_logos/texans.png",
-          team: "Houston Texans",
-        },
-        {
           player: "Jayden Daniels",
           logoPic: "/team_logos/commanders.png",
           team: "Washington Commanders",
         },
         {
-          player: "Sam Darnold",
-          logoPic: "/team_logos/vikings.png",
-          team: "Minnesota Vikings",
+          player: "Baker Mayfield",
+          logoPic: "/team_logos/buccaneers.png",
+          team: "Tampa Bay Buccaneers",
         },
         {
-          player: "Kirk Cousins",
-          logoPic: "/team_logos/falcons.png",
-          team: "Alanta Falcons",
+          player: "Jalen Hurts",
+          logoPic: "/team_logos/eagles.png",
+          team: "Philadelphia Eagles",
+        },
+        {
+          player: "Matthew Stafford",
+          logoPic: "/team_logos/rams.png",
+          team: "Los Angeles Rams",
+        },
+        {
+          player: "Sam Darnold",
+          logoPic: "/team_logos/seahawks.png",
+          team: "Seattle Seahawks",
         },
       ]
       
       export const rbRankings= [
-        {
-          player: "Derrick Henry",
-          logoPic: "/team_logos/ravens.png",
-          team: "Baltimore Ravens",
-        },
         {
           player: "Saquon Barkley",
           logoPic: "/team_logos/eagles.png",
           team: "Philadelphia Eagles",
         },
         {
-          player: "Alvin Kamara",
-          logoPic: "/team_logos/saints.png",
-          team: "New Orleans Saints",
-        },
-        {
-          player: "Bijan Robinson",
-          logoPic: "/team_logos/falcons.png",
-          team: "Atlanta Falcons",
+          player: "Derrick Henry",
+          logoPic: "/team_logos/ravens.png",
+          team: "Baltimore Ravens",
         },
         {
           player: "Josh Jacobs",
@@ -118,9 +108,14 @@ export const nflRankings = [
           team: "Green Bay Packers",
         },
         {
-          player: "David Montgomery",
+          player: "Jahmyr Gibbs",
           logoPic: "/team_logos/lions.png",
           team: "Detroit Lions",
+        },
+        {
+          player: "Bijan Robinson",
+          logoPic: "/team_logos/falcons.png",
+          team: "Atlanta Falcons",
         },
         {
           player: "Kyren Williams",
@@ -128,19 +123,24 @@ export const nflRankings = [
           team: "Los Angeles Rams",
         },
         {
-          player: "Kenneth Walker",
-          logoPic: "/team_logos/seahawks.png",
-          team: "Seattle Seahawks",
+          player: "James Cook",
+          logoPic: "/team_logos/bills.png",
+          team: "Buffalo Bills",
         },
         {
-          player: "Jahmyr Gibbs",
+          player: "Alvin Kamara",
+          logoPic: "/team_logos/saints.png",
+          team: "New Orleans Saints",
+        },
+        {
+          player: "David Montgomery",
           logoPic: "/team_logos/lions.png",
           team: "Detroit Lions",
         },
         {
-          player: "James Cook",
-          logoPic: "/team_logos/bills.png",
-          team: "Buffalo Bills",
+          player: "Kenneth Walker",
+          logoPic: "/team_logos/seahawks.png",
+          team: "Seattle Seahawks",
         },
       ]
 
@@ -161,14 +161,19 @@ export const nflRankings = [
           team: "Detroit Lions",
         },
         {
-          player: "CeeDee Lamb",
-          logoPic: "/team_logos/cowboys.png",
-          team: "Dallas Cowboys",
-        },
-        {
           player: "AJ Brown",
           logoPic: "/team_logos/eagles.png",
           team: "Philadelphia Eagles",
+        },
+        {
+          player: "Puka Nacua",
+          logoPic: "/team_logos/rams.png",
+          team: "Los Angeles Rams",
+        },
+        {
+          player: "CeeDee Lamb",
+          logoPic: "/team_logos/cowboys.png",
+          team: "Dallas Cowboys",
         },
         {
           player: "Terry McLaurin",
@@ -176,23 +181,18 @@ export const nflRankings = [
           team: "Washington Commanders",
         },
         {
-          player: "Garrett Wilson",
-          logoPic: "/team_logos/jets.png",
-          team: "New York Jets",
-        },
-        {
           player: "Malik Nabers",
           logoPic: "/team_logos/giants.png",
           team: "New York Giants",
         },
         {
-          player: "Brian Thomas Jr.",
-          logoPic: "/team_logos/jaguars.png",
-          team: "Jacksonville Jaguars",
+          player: "Mike Evans",
+          logoPic: "/team_logos/buccaneers.png",
+          team: "Tampa Bay Buccaneers",
         },
         {
-          player: "Tyreek Hill",
-          logoPic: "/team_logos/dolphins.png",
-          team: "Miami Dolphins",
+          player: "Nico Collins",
+          logoPic: "/team_logos/texans.png",
+          team: "Houston Texans",
         },
       ]

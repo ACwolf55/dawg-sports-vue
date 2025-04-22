@@ -3,7 +3,7 @@
 import Header from "@/components/Header.vue";
 
 
-import { nflRankings, topDawgs, dawgWatch } from "../data/rankings";
+import { nflRankings, topDawgs, dawgWatch } from "../data/nflRankings";
 
 export default {
   name: "Home",
