@@ -67,7 +67,7 @@ export default {
     <text x="150" y="30" text-anchor="middle" class="font-bold text-lg" fill="#92400E">Big Tone's Tone Setter</text>
     <foreignObject x="20" y="50" width="260" height="100">
       <p xmlns="http://www.w3.org/1999/xhtml" class="text-center italic text-gray-800">
-        "I think the commanders are a <span class="font-bold">DARK</span> horse this year with Jayden"
+        ..pending..
       </p>
     </foreignObject>
   </svg>
