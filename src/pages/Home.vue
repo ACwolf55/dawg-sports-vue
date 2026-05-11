@@ -25,10 +25,10 @@ export default {
        <Header />
 
     <main
-      class="flex flex-col sm:flex-row space-x-0 sm:space-x-4 p-4 h-auto sm:h-[540vh]"
+      class="flex flex-col sm:flex-row space-x-0 sm:space-x-4 p-4"
     >
     <section
-  class="w-full sm:w-[40%] bg-gray-600 p-5 rounded-lg shadow-lg mb-4 sm:mb-0 sm:h-[100%]"
+  class="w-full sm:w-[40%] bg-gray-600 p-5 rounded-lg shadow-lg mb-4 sm:mb-0"
 >
 
         <h3
@@ -76,7 +76,7 @@ export default {
       </section>
 
      <!-- Top Dawgs (Middle Column) -->
-<section class="w-full sm:w-[40%] bg-gray-600 p-5 rounded-lg shadow-lg mb-4 sm:mb-0 sm:h-[100%]">
+<section class="w-full sm:w-[40%] bg-gray-600 p-5 rounded-lg shadow-lg mb-4 sm:mb-0">
   <h3 class="text-2xl font-bold text-white mb-8 text-center font-ranchers">
     Top Dawgs
   </h3>
@@ -109,7 +109,7 @@ export default {
 </section>
 
 <!-- Dawg Watch Section -->
-<section class="w-full sm:w-[40%] bg-gray-600 p-5 rounded-lg shadow-lg mb-4 sm:mb-0 sm:h-[100%]">
+<section class="w-full sm:w-[40%] bg-gray-600 p-5 rounded-lg shadow-lg mb-4 sm:mb-0">
   <h3 class="text-2xl font-bold text-white mb-8 text-center font-ranchers">
     Dawg Watch
   </h3>

@@ -1,14 +1,14 @@
 export const nflRankings = [
+  { team: "Seattle Seahawks", pic: "/team_logos/seahawks.png" },
+  { team: "Los Angeles Rams", pic: "/team_logos/rams.png" },
   { team: "Philadelphia Eagles", pic: "/team_logos/eagles.png" },
   { team: "Detroit Lions", pic: "/team_logos/lions.png" },
   { team: "Buffalo Bills", pic: "/team_logos/bills.png" },
-  { team: "Los Angeles Rams", pic: "/team_logos/rams.png" },
-  { team: "Kansas City Chiefs #refsPlan", pic: "/team_logos/chiefs.png" },
-  { team: "Seattle Seahawks", pic: "/team_logos/seahawks.png" },
   { team: "New England Patriots", pic: "/team_logos/patriots.png" },
-  { team: "Indianapolis Colts", pic: "/team_logos/colts.png" },
-  { team: "Green Bay Packers", pic: "/team_logos/packers.png" },
+  { team: "Denver Broncos", pic: "/team_logos/broncos.png" },
   { team: "Baltimore Ravens", pic: "/team_logos/ravens.png" },
+  { team: "Chicago Bears", pic: "/team_logos/bears.png" },
+  { team: "Kansas City Chiefs ", pic: "/team_logos/chiefs.png" },
 ];
 
 export const topDawgs = [
@@ -300,16 +300,17 @@ export const wrRankings = [
     logoPic: "/team_logos/seahawks.png",
     team: "Seattle Seahawks",
   },
+   {
+    player: "Puka Nacua",
+    logoPic: "/team_logos/rams.png",
+    team: "Los Angeles Rams",
+  },
   {
     player: "Amon-Ra St. Brown",
     logoPic: "/team_logos/lions.png",
     team: "Detroit Lions",
   },
-  {
-    player: "Puka Nacua",
-    logoPic: "/team_logos/rams.png",
-    team: "Los Angeles Rams",
-  },
+ 
   {
     player: "CeeDee Lamb",
     logoPic: "/team_logos/cowboys.png",
