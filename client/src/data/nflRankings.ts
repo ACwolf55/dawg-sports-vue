@@ -21,11 +21,11 @@ export const topDawgs = [
     info: "",
   },
   {
-    player: "Baker Mayfield",
+    player: "Matthew Stafford",
     playerPic: "",
-    logoPic: "/team_logos/buccaneers.png",
+    logoPic: "/team_logos/rams.png",
     position: "QB",
-    team: "Tampa Bay Buccaneers",
+    team: "Los Angeles Rams",
     info: "",
   },
   {
@@ -77,11 +77,11 @@ export const topDawgs = [
     info: "",
   },
   {
-    player: "Josh Jacobs",
+    player: "James Cook",
     playerPic: "",
-    logoPic: "/team_logos/packers.png",
+    logoPic: "/team_logos/bills.png",
     position: "RB",
-    team: "Las Vegas Raiders",
+    team: "Buffalo Bills",
     info: "",
   },
   {
@@ -112,11 +112,11 @@ export const dawgWatch = [
     info: "",
   },
   {
-    player: "Mac Jones",
+    player: "Emeka Egbuka",
     playerPic: "",
-    logoPic: "/team_logos/49ers.png",
-    position: "QB",
-    team: "San Francisco 49ers",
+    logoPic: "/team_logos/bucaneers.png",
+    position: "WR",
+    team: "Tampa Bay Buccaneers",
     info: "",
   },
   {
@@ -130,9 +130,9 @@ export const dawgWatch = [
   {
     player: "Rico Dowdle",
     playerPic: "",
-    logoPic: "/team_logos/panthers.png",
+    logoPic: "/team_logos/steelers.png",
     position: "RB",
-    team: "Carolina Panthers",
+    team: "Pittsburgh Steelers",
     info: "",
   },
   {
