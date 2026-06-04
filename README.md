@@ -1,65 +1,84 @@
-# DAWG Sports
+# Dawg Sports
 
-NBA & NFL rankings, takes, and sports content with personality — a meme-y but legit sports site, built with Vue 3.
+NFL and NBA rankings with personality — a meme-y but legit sports site. Full-stack: Vue 3 frontend + Node/Express backend + PostgreSQL on Supabase.
 
-> **Live:** [dawgsports.xyz](https://www.dawgsports.xyz/) (also [dawg-sports-vue.vercel.app](https://dawg-sports-vue.vercel.app))
+## Structure
 
-## What it does
-
-Multi-page Vue 3 site with brand voice:
-
-- **Home** — landing page with brand + calls to action
-- **NBA Rankings** — power rankings with takes
-- **NFL Rankings** — power rankings with takes
-- **About / Our Story / Careers / Contact / Get Ad** — supporting pages
-- Aimed at sports fans who want personality, not generic ESPN-style copy
+```
+dawg-sports-vue/
+  client/   ← Vue 3 frontend (Vite + Tailwind)
+  server/   ← Node/Express API (Sequelize + PostgreSQL)
+```
 
 ## Tech Stack
 
 | Layer | Tech |
 |---|---|
-| Framework | Vue 3 (Composition API, `<script setup>`) |
-| Routing | Vue Router 4 |
-| Build | Vite 5 |
-| Styling | Tailwind CSS 3 |
-| Data | Currently static (TS files in `src/data/`) |
-| Hosting | Vercel + custom domain |
+| Frontend | Vue 3, Vue Router 4, Vite 5, Tailwind CSS 3 |
+| Backend | Node.js, Express, Sequelize |
+| Database | PostgreSQL (Supabase) |
+| Hosting | Client → Vercel · Server → Railway |
 
-## Project Structure
+## Pages
 
-```
-src/
-├── pages/        # route components (Home, NBARankings, NFLRankings, ...)
-├── components/   
-├── data/         # static rankings data (nbaRankings.ts, nflRankings.ts)
-├── router.js     # Vue Router config
-├── App.vue       # root
-└── main.js       # entry
-```
+- **Home** — NFL Power Rankings, Top Dawgs, Dawg Watch (live from DB)
+- **NFL Rankings** — QB, RB, WR rankings (live from DB)
+- **NBA Rankings** — Top 20 players (live from DB)
+- **Our Story / Careers / Contact / Get Ad** — supporting pages
 
 ## Getting Started
 
+### Client
 ```bash
+cd client
 npm install
-npm run dev      # Vite dev server
-npm run build    # production build
-npm run preview  # preview production build
+npm run dev       # runs on localhost:5173
 ```
 
-## Roadmap
+### Server
+```bash
+cd server
+npm install
+npm run dev       # runs on localhost:4000
+```
 
-- [ ] update photos / images and current rankings for NFL & NBA
-- [ ] Migrate to **Nuxt 3** for SSR (better SEO + Open Graph for shared posts)
-- [ ] Add real backend pulling from a sports API (TheSportsDB / sportsdata.io)
-- [ ] CMS for the "takes" / posts so I can author from a dashboard
-- [ ] Rankings as living data instead of hand-edited TS files
-- [ ] Image optimization + lazy loading
-- [ ] Mobile-responsive polish pass
+Add your Supabase connection string to `server/.env`:
+```
+DATABASE_URL=your_supabase_session_pooler_uri
+```
 
-## What I Learned
+Run `seed.sql` in Supabase SQL editor to create tables and load data.
 
-- Vue 3 Composition API and `<script setup>` SFCs
-- Vue Router with file-based-style page organization
-- Tailwind utility classes inside Vue templates
-- Vite's HMR workflow vs Webpack-based React tooling
-- Designing a static-first site that's set up to grow into a backend-powered one
+## Environment Variables
+
+Client uses Vite env variables for the API URL:
+- `client/.env` — `VITE_API_URL=http://localhost:4000` (local)
+- `client/.env.production` — `VITE_API_URL=https://your-railway-url.com` (deployed)
+
+## API Routes
+
+| Method | Route | Description |
+|---|---|---|
+| GET | /api/nfl/rankings | NFL team standings |
+| GET | /api/nfl/top-dawgs | Featured players |
+| GET | /api/nfl/dawg-watch | Players to watch |
+| GET | /api/nfl/qb-rankings | QB rankings |
+| GET | /api/nfl/rb-rankings | RB rankings |
+| GET | /api/nfl/wr-rankings | WR rankings |
+| GET | /api/nba/players | NBA player rankings |
+
+## To Do
+
+- [ ] Add missing team logos (broncos, bears, steelers, panthers, panthers)
+- [ ] Add player profile pic URLs to top_dawgs and dawg_watch in DB
+- [ ] Deploy client to Vercel
+- [ ] Deploy server to Railway, update `.env.production` with live URL
+- [ ] UI polish pass on NFL/NBA ranking pages
+- [ ] Mobile responsive cleanup
+
+## What I Built
+
+- Full-stack Vue + Node/Express app with a real PostgreSQL database
+- Monorepo structure with separate client and server
+- Live data fetched from Supabase via Express API on page load (Vue `mounted()`)
+- Environment-based API URL switching for local vs deployed
