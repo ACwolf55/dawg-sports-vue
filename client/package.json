@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "axios": "^1.17.0",
     "dawg-sports-vue": "file:",
     "vue": "^3.4.21",
     "vue-router": "^4.4.5"

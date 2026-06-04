@@ -1,3 +1,9 @@
+// ============================================================
+// BACKUP / REFERENCE — Static NFL data (no longer used in app)
+// App now pulls all data from the Express API → Supabase DB
+// Kept here as reference for data shape and original rankings
+// ============================================================
+
 export const nflRankings = [
   { team: "Seattle Seahawks", pic: "/team_logos/seahawks.png" },
   { team: "Los Angeles Rams", pic: "/team_logos/rams.png" },

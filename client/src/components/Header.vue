@@ -1,11 +1,7 @@
-     <script setup lang="ts">
-
-
+<script setup lang="ts">
 </script>
 
-  
-  <template>
-    
+<template>
   <header
     class="bg-purple-600 text-white h-32 md:h-40 flex flex-col items-center justify-between px-4 py-2"
   >
@@ -30,7 +26,6 @@
         />
       </div>
     </RouterLink>
-
     <nav
       class="flex flex-col md:flex-row w-full md:w-2/3 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 rounded-lg p-2 justify-around items-center"
     >
@@ -60,4 +55,3 @@
     </nav>
   </header>
 </template>
-  

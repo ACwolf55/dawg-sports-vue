@@ -1,13 +1,16 @@
 
 <script>
+import Header from '../components/Header.vue'
 export default {
   name: "ContactUs",
- 
+  components: { Header },
 };
 </script>
 
 <template>
-    <div class="flex justify-center items-center min-h-screen bg-gradient-to-r from-purple-700 to-blue-500 p-6">
+  <div class="flex flex-col min-h-screen">
+    <Header />
+    <div class="flex justify-center items-center flex-1 bg-gradient-to-r from-purple-700 to-blue-500 p-6">
   <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-lg">
     <h3 class="text-3xl font-bold text-center text-purple-700 mb-6">Contact</h3>
     <form 
@@ -53,7 +56,7 @@ export default {
       </button>
       <h4>This will open another page to verify you as human</h4>
     </form>
+    </div>
+    </div>
   </div>
-</div>
-
 </template>

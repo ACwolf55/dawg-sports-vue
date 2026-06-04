@@ -1,3 +1,9 @@
+// ============================================================
+// BACKUP / REFERENCE — Static NBA data (no longer used in app)
+// App now pulls all data from the Express API → Supabase DB
+// Kept here as reference for original rankings
+// ============================================================
+
 export const nbaPlayers: string[] = [
     "Nikola Jokic",
     "Luka Doncic",

@@ -1,6 +1,8 @@
 <script>
+import Header from '../components/Header.vue'
 export default {
   name: "GetAd",
+  components: { Header },
   data() {
     return {
       reviews: [
@@ -14,23 +16,24 @@ export default {
 </script>
 
 <template>
+  <div class="flex flex-col min-h-screen bg-gradient-to-r from-purple-700 to-blue-500">
+    <Header />
+    <div class="max-w-3xl mx-auto p-8 w-full flex-1">
+      <h2 class="text-3xl font-bold mb-2 text-center text-white">Place Your Ad on Dawg Sports</h2>
+      <p class="text-center text-purple-200 mb-8">$50/week. Highly targeted audience of 3–4 people.</p>
 
-    <div class="max-w-4xl mx-auto p-6">
-      <div v-if="reviews.length" class="space-y-6">
-        <h2 class="text-2xl font-semibold mb-4 text-center"><u>Hear From <i>DAWG SPORTS</i> previous ad Customers!</u></h2>
-        <ul class="space-y-6">
-          <li v-for="(review, index) in reviews" :key="index" class="p-6 bg-white shadow-md rounded-lg">
-            <div class="flex items-center justify-between mb-2">
-              <strong class="text-lg font-bold">{{ review.name }}</strong> 
-              <p class="text-yellow-500 text-lg">Rating: {{ review.rating }}/5</p>
-            </div>
-            <p class="text-gray-600 italic">"{{ review.review }}"</p>
-          </li>
-        </ul>
-      </div>
-      
-      <div v-else class="text-center mt-8">
-        <p class="text-gray-500 text-lg">No reviews yet.</p>
+      <div v-if="reviews.length" class="space-y-5">
+        <h3 class="text-xl font-semibold text-white text-center mb-4 underline">
+          Hear from <i>DAWG SPORTS</i> previous ad customers!
+        </h3>
+        <div v-for="(review, index) in reviews" :key="index" class="p-5 bg-white shadow-md rounded-lg">
+          <div class="flex items-center justify-between mb-2">
+            <strong class="text-lg font-bold text-purple-700">{{ review.name }}</strong>
+            <span class="text-yellow-500 font-semibold">{{ '⭐'.repeat(review.rating) }}</span>
+          </div>
+          <p class="text-gray-600 italic">"{{ review.review }}"</p>
+        </div>
       </div>
     </div>
-  </template>
+  </div>
+</template>

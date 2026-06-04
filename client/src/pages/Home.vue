@@ -1,21 +1,29 @@
 <script>
-
 import Header from "@/components/Header.vue";
+import axios from 'axios'
 
-
-import { nflRankings, topDawgs, dawgWatch } from "../data/nflRankings";
+const BASE_URL = import.meta.env.VITE_API_URL
 
 export default {
   name: "Home",
-    components: {
-    Header
-  },
+  components: { Header },
   data() {
     return {
-      dawgWatch,
-      nflRankings,
-      topDawgs,
+      nflRankings: [],
+      topDawgs: [],
+      dawgWatch: [],
     };
+  },
+  mounted() {
+    axios.get(`${BASE_URL}/api/nfl/rankings`).then((res) => {
+      this.nflRankings = res.data
+    })
+    axios.get(`${BASE_URL}/api/nfl/top-dawgs`).then((res) => {
+      this.topDawgs = res.data
+    })
+    axios.get(`${BASE_URL}/api/nfl/dawg-watch`).then((res) => {
+      this.dawgWatch = res.data
+    })
   },
 };
 </script>
@@ -49,7 +57,7 @@ export default {
           </h4>
           <div class="flex items-center space-x-4">
             <img
-              :src="team.pic"
+              :src="team.logo"
               alt="team logo"
               class="w-16 h-16 object-cover"
             />
@@ -85,7 +93,7 @@ export default {
     <!-- Top Section: Player Image & Info -->
     <div class="flex items-center mb-4">
       <img
-        :src="player.playerPic"
+        :src="player.player_pic"
         alt="player image"
         class="w-24 h-24 object-cover rounded-lg mr-4 gradient-border"
       />
@@ -93,7 +101,7 @@ export default {
         <h4 class="text-lg font-bold text-gray-800">{{ player.player }} -  <span class="text-gray-600">{{ player.position }}</span> </h4>
         <div class="flex items-center mt-1">
           <img
-            :src="player.logoPic"
+            :src="player.logo_pic"
             alt="team logo"
             class="w-9 h-9 object-contain mr-2"
           />
@@ -118,7 +126,7 @@ export default {
     <!-- Top Section: Player Image & Info -->
     <div class="flex items-center mb-4">
       <img
-        :src="player.playerPic"
+        :src="player.player_pic"
         alt="player image"
         class="w-24 h-24 object-cover rounded-lg mr-4 gradient-border"
       />
@@ -126,7 +134,7 @@ export default {
         <h4 class="text-lg font-bold text-gray-800">{{ player.player }}- <span class="text-gray-600">{{ player.position }}</span></h4>
         <div class="flex items-center mt-1">
           <img
-            :src="player.logoPic"
+            :src="player.logo_pic"
             alt="team logo"
             class="w-9 h-9 object-contain mr-2"
           />
