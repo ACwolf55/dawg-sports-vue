@@ -2,6 +2,9 @@
 
 NFL and NBA rankings with personality — a meme-y but legit sports site. Full-stack: Vue 3 frontend + Node/Express backend + PostgreSQL on Supabase.
 
+> **Live:** [dawgsports.xyz](https://www.dawgsports.xyz)  
+> **Frontend:** Vercel · **Backend:** Railway · **Database:** Supabase (PostgreSQL)
+
 ## Structure
 
 ```
@@ -53,7 +56,9 @@ Run `seed.sql` in Supabase SQL editor to create tables and load data.
 
 Client uses Vite env variables for the API URL:
 - `client/.env` — `VITE_API_URL=http://localhost:4000` (local)
-- `client/.env.production` — `VITE_API_URL=https://your-railway-url.com` (deployed)
+- `client/.env.production` — `VITE_API_URL=https://dawg-sports-vue-production.up.railway.app` (deployed)
+
+**Note:** Use the Supabase **session pooler** URI for `DATABASE_URL` (not the direct connection). Railway is IPv4-only — the direct Supabase host is IPv6 and will fail. Session pooler host looks like `aws-1-us-east-2.pooler.supabase.com` and is IPv4 compatible. Same fix as AWS Elastic Beanstalk.
 
 ## API Routes
 
@@ -69,16 +74,16 @@ Client uses Vite env variables for the API URL:
 
 ## To Do
 
-- [ ] Add missing team logos (broncos, bears, steelers, panthers, panthers)
-- [ ] Add player profile pic URLs to top_dawgs and dawg_watch in DB
-- [ ] Deploy client to Vercel
-- [ ] Deploy server to Railway, update `.env.production` with live URL
+- [ ] Add missing team logos (broncos, bears, steelers, panthers)
+- [ ] Add player profile pic URLs to top_dawgs and dawg_watch rows in Supabase
 - [ ] UI polish pass on NFL/NBA ranking pages
 - [ ] Mobile responsive cleanup
+- [ ] Add to portfolio at alexcrowe-dev.online with screenshot
 
 ## What I Built
 
-- Full-stack Vue + Node/Express app with a real PostgreSQL database
-- Monorepo structure with separate client and server
+- Full-stack Vue + Node/Express app with a real PostgreSQL database — fully deployed
+- Monorepo structure: Vue client on Vercel, Express server on Railway, DB on Supabase
 - Live data fetched from Supabase via Express API on page load (Vue `mounted()`)
-- Environment-based API URL switching for local vs deployed
+- Environment-based API URL switching (`VITE_API_URL`) for local vs deployed
+- Debugged IPv6/IPv4 routing issue — Railway is IPv4-only, Supabase direct host is IPv6. Fixed by switching to Supabase session pooler (same issue previously solved on AWS EB for the PKM project)
