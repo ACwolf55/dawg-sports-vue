@@ -59,7 +59,7 @@ export default {
             <img
               :src="team.logo"
               alt="team logo"
-              class="w-16 h-16 object-cover"
+              class="w-16 h-16 object-contain"
             />
             <h4 class="text-white font-semibold text-xl">{{ team.team }}</h4>
           </div>
