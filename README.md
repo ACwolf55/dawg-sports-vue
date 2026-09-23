@@ -2,7 +2,7 @@
 
 NFL and NBA rankings with personality — a meme-y but legit sports site. Full-stack: Vue 3 frontend + Node/Express backend + PostgreSQL on Supabase.
 
-> **Live:** [dawgsports.xyz](https://www.dawgsports.xyz)  
+> **Live:** [dawg-sports-vue.vercel.app](https://dawg-sports-vue.vercel.app)  
 > **Frontend:** Vercel · **Backend:** Railway · **Database:** Supabase (PostgreSQL)
 
 ## Structure
